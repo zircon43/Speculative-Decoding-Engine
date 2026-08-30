@@ -1,0 +1,60 @@
+TEST_PROMPTS = [
+    # Factual (15 prompts)
+    "What is the capital of France?",
+    "Who wrote the play Hamlet?",
+    "What is the chemical symbol for gold?",
+    "When did the first moon landing occur?",
+    "What is the largest planet in our solar system?",
+    "Who painted the Mona Lisa?",
+    "What is the speed of light in a vacuum?",
+    "How many continents are there on Earth?",
+    "What is the boiling point of water at sea level?",
+    "Who was the first President of the United States?",
+    "What is the deepest ocean trench?",
+    "What gas do plants absorb from the atmosphere?",
+    "Who discovered penicillin?",
+    "What year did World War II end?",
+    "What is the tallest mountain in the world?",
+
+    # Long-form / Explanatory (15 prompts)
+    "Explain photosynthesis in detail, breaking down the light-dependent and light-independent reactions.",
+    "Describe the causes and consequences of the French Revolution.",
+    "How does a quantum computer differ from a classical computer?",
+    "What are the main differences between meiosis and mitosis?",
+    "Write a short essay on the impact of artificial intelligence on modern healthcare.",
+    "Explain the theory of general relativity in simple terms.",
+    "Discuss the evolution of the internet from ARPANET to the modern web.",
+    "What is the greenhouse effect and how does it contribute to climate change?",
+    "Describe the water cycle and its importance to Earth's ecosystems.",
+    "Explain how the human immune system fights off a viral infection.",
+    "Compare and contrast capitalism and socialism as economic systems.",
+    "What are black holes, and how do they form?",
+    "Describe the process of natural selection with an example.",
+    "Explain how a combustion engine works.",
+    "What is blockchain technology and how does it secure transactions?",
+
+    # Code-like / Structured (10 prompts)
+    "Write a Python function to compute the nth Fibonacci number using dynamic programming.",
+    "How do you reverse a linked list in C++?",
+    "Write an SQL query to find the second highest salary from an Employee table.",
+    "Explain the concept of closures in JavaScript with an example.",
+    "Show how to implement a binary search tree insertion in Java.",
+    "Write a bash script to find all files larger than 100MB in a directory.",
+    "How do you implement a singleton pattern in Python?",
+    "Write a Go function to concurrently fetch three URLs using goroutines.",
+    "Provide a basic Dockerfile for a Node.js web application.",
+    "Explain the difference between a process and a thread, with code examples.",
+
+    # Multi-turn style / Instruct (10 prompts)
+    "User: I need a recipe for chocolate chip cookies. Assistant: Here is a recipe... User: Can you make it vegan?",
+    "User: Hello, how are you? Assistant: I am an AI, I don't have feelings, but I'm here to help! User: Tell me a joke.",
+    "User: Translate 'hello world' to French. Assistant: Bonjour le monde. User: Now to Spanish.",
+    "User: What is 2 + 2? Assistant: 4. User: Multiply that by 5.",
+    "User: Name a color. Assistant: Blue. User: Give me three things that are that color.",
+    "User: Write a poem about a cat. Assistant: [Poem] User: Now make it rhyme.",
+    "User: What's the best way to invest $1000? Assistant: [Advice] User: What about crypto?",
+    "User: Give me a workout routine. Assistant: [Routine] User: I don't have weights.",
+    "User: Summarize the plot of Inception. Assistant: [Summary] User: Explain the ending.",
+    "User: How do I boil an egg? Assistant: [Steps] User: What if I want it soft-boiled?"
+]
+

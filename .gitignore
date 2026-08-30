@@ -1,0 +1,21 @@
+# Ignore all markdown files (journals, task plans, etc.)
+*.md
+# Specifically ALLOW README.md to be tracked
+!README.md
+
+# Ignore local notes and future features
+future_features.txt
+*.txt
+!requirements.txt
+
+# Ignore reference repositories downloaded during Phase 0
+reference_repos/
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+__notebook__.ipynb
+
+# Ignore Kaggle outputs or local test scripts unless explicitly tracked
+tests/
