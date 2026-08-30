@@ -34,9 +34,10 @@ This engine implements:
 3. **Residual Resampling:** Distributes rejected token probability via $\max(0, p - q)$ to guarantee the target model's output distribution remains identical.
 
 ## 🚀 Usage
-The entire testing harness, profiling engine, and correctness verification suite is encapsulated in `kaggle_run.py`, specifically formatted to be dropped directly into a Kaggle Dual-T4 notebook environment.
+The codebase is fully modularized into the `src/` directory.
 
+To generate the final Kaggle-ready notebook:
 ```bash
-# Run the complete verification and benchmarking pipeline
-python kaggle_run.py
+python build_notebook.py
 ```
+This will stitch the modular code into `kaggle_spec_decode.ipynb`, organized beautifully cell-by-cell. You can then drop this notebook directly into a dual-T4 Kaggle environment and run it!
